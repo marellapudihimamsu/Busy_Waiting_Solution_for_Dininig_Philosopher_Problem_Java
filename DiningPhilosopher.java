@@ -29,10 +29,11 @@ class Sticks
      public boolean getSticks()
     {
         while(no<2);
-
+            synchronized(this)
+            {
                 no=no-2;
                 return true;
-
+            }
 
     }
     synchronized public void returnSticks()
