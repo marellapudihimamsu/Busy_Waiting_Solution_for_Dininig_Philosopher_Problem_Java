@@ -1,8 +1,8 @@
 import java.util.Random;
-/**
- *
- * @author Dell
- */
+///////////////////////////////
+// Himamsu
+// june 2019
+//////////////////////////////
 public class PhilosophersDeadlock 
 {
     public static void main(String[] args)
