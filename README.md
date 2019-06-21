@@ -1,4 +1,4 @@
-# Busy_Waiting_Solution_for_Dininig_Philosopher_Problem_Java
+# DininigPhilosopher.Java
 
 
 The following solution 
