@@ -1,4 +1,7 @@
-
+///////////////////////////////
+// Himamsu
+// june 2019
+//////////////////////////////
 import java.util.Random;
 public class DiningPhilosopher
 {
