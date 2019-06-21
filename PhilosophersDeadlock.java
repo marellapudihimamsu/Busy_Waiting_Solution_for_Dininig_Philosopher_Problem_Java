@@ -25,7 +25,7 @@ public class PhilosophersDeadlock
 
 class Sticks
 {
-    private static int no=5;
+    private static int no=5;               // if this is 2 we can look at deadlock morer quickly
      public void getStick()
     {
         while(no<1);
