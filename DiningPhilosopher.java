@@ -86,7 +86,14 @@ class Philosopher extends Thread
                 st.returnSticks();
 
                 System.out.println("this is "+name+" "+" is looking at "+st.getCount()+" count after returning");
-
+                try
+                {
+                    this.sleep(random.nextInt(100));
+                }
+                catch(Exception e)
+                {
+                    System.out.print(e);
+                }
         }
     }
 
